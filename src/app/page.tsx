@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </footer>
       </div>
-      <div className=" grid  items-center justify-center h-full w-full overflow-y-scroll p-5 ">
+      <div className=" grid  items-center justify-center h-full w-full overflow-y-scroll ">
         <section id="about" className="p-5   rounded-lg ">
           <h2 className="text-2xl font-bold pb-5">About</h2>
           <p className="text-base pb-2 ">I’m a passionate <strong className="font-extrabold text-slate-400"> web developer</strong> specializing in building  responsive, accessible, and user-friendly websites and web apps using <strong className="font-extrabold text-slate-400"> React, Next.js, Tailwind CSS, and Strapi</strong>. With a strong foundation in <strong className="font-extrabold text-slate-400"> HTML, CSS, and JavaScript</strong> , I create clean, maintainable code tailored to client needs, including bilingual and niche market projects.</p>
