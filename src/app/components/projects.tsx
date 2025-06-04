@@ -36,9 +36,9 @@ export default function Projects() {
     ]
     const projectsList = project.map((project) => (
         <div className="py-5" key={project.id}>
-            <div className="flex flex-col items-center bg-gray-800 rounded-2xl shadow-sm md:flex-row md:max-w-xl ">
+            <div className="flex flex-col items-center bg-gray-800 rounded-2xl shadow-sm md:flex-row md:max-w-5xl">
                 <img className="object-cover w-full h-60 rounded-t-lg  md:w-48 md:rounded-none md:rounded-l-lg" src={project.img} alt={project.tittle} />
-                <div className="flex flex-col justify-between p-4 leading-normal">
+                <div className="flex flex-col justify-between p-4  md:p-7  leading-normal">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{project.tittle}</h5>
                     <p className="mb-3 font-normal text-base text-gray-700 dark:text-gray-400">{project.description}</p>
                     <div className='flex justify-start gap-3 items-center'>
