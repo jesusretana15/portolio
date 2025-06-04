@@ -1,0 +1,25 @@
+{
+    "HomePage": {
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "about1": "Soy un desarrollador web apasionado que se especializa en crear sitios web y aplicaciones web responsivas, adaptadas a todos los dispositivos, accesibles y fáciles de usar utilizando tecnologías web modernas como",
+        "about2": "React, Next.js, Tailwind CSS, y Strapi",
+        "about3": "Con una sólida base en ",
+        "about4": "HTML, CSS, and JavaScript",
+        "about5": ", creo código limpio y mantenible adaptado a las necesidades del cliente, incluidos proyectos bilingües.",
+        "about6": "Más allá de las habilidades técnicas, aporto fuertes capacidades de",
+        "about7": "resolución de problemas, atención al detalle y comunicación clara",
+        "about8": "a cada proyecto. También me interesa el aprendizaje continuo y a ofrecer trabajo de alta calidad que ayude a las empresas a crecer en línea. Mi objetivo es combinar creatividad y tecnología para crear experiencias digitales impactantes.",
+        "projectOpenProject": "Abrir proyecto",
+        "projectOpenCode": "Abrir código",
+        "project1": "Patronaje 101",
+        "project1description": "Blog hecho con Next.js, React, Strapi y Tailwind CSS. Presenta un diseño responsivo, soporte bilingüe y un CMS personalizado para una fácil gestión de contenidos.",
+        "project2": "Cards2Bond",
+        "project2description": "Juego de carta hecho con Next.js, React. Presenta un diseño responsivo, soporte bilingüe.",
+        "project3": "Tienda de Moda",
+        "project3description": "Tienda en línea hecho con HTML, CSS y JavaScript. Presenta un diseño responsivo, una página de inicio, carrusel con looks, opción para reservar citas y una página de contacto.",
+        "project4": "Estudio de Tatuajes",
+        "project4description": "Sitio web de estudio de tatuajes hecho con HTML, CSS y JavaScript. Diseño responsivo con una página de inicio y características secciones por el cliente."
+    }
+}

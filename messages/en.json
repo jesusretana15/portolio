@@ -1,0 +1,25 @@
+{
+    "HomePage": {
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "about1": "I’m a passionate web developer specializing in building  responsive, accessible, and user-friendly websites and web apps using modern web technologies like",
+        "about2": "React, Next.js, Tailwind CSS, and Strapi",
+        "about3": "With a strong foundation in ",
+        "about4": "HTML, CSS, and JavaScript",
+        "about5": ", I create clean, maintainable code tailored to client needs, including bilingual projects.",
+        "about6": "Beyond technical skills, I bring strong ",
+        "about7": "problem-solving abilities, attention to detail, and clear communication",
+        "about8": "to every project. I’m dedicated to continuous learning and delivering high-quality work that helps businesses grow online. My goal is to combine creativity and technology to build impactful digital experiences.",
+        "projectOpenProject": "Open project",
+        "projectOpenCode": "Open code",
+        "project1": "Patternmaking 101",
+        "project1description": "Blog site built using Next.js, React, Strapi, and Tailwind CSS. It features a responsive design, bilingual support, and a custom CMS for easy content management.",
+        "project2": "Cards2Bond",
+        "project2description": "Card game built using Next.js, React. It features a responsive design, bilingual support.",
+        "project3": "Fashion Store",
+        "project3description": "E-commerce site built using HTML, CSS and JavaScript. It features a responsive design, a landing page, carrousel with looks, and option to book appointments, and contact page.",
+        "project4": "Tattoo Studio ",
+        "project4description": "Tattoo studio site built using HTML, CSS and JavaScript. It features a responsive design and features requested by the client."
+    }
+}
