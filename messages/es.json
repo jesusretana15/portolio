@@ -14,11 +14,11 @@
         "projectOpenProject": "Abrir proyecto",
         "projectOpenCode": "Abrir código",
         "project1": "Patronaje 101",
-        "project1description": "Blog hecho con Next.js, React, Strapi y Tailwind CSS. Presenta un diseño responsivo, soporte bilingüe y un CMS personalizado para una fácil gestión de contenidos.",
+        "project1description": "Blog hecho con Next.js, React, Strapi y Tailwind CSS. Presenta un diseño responsivo, soporte bilingüe y un CMS personalizado.",
         "project2": "Cards2Bond",
         "project2description": "Juego de carta hecho con Next.js, React. Presenta un diseño responsivo, soporte bilingüe.",
         "project3": "Tienda de Moda",
-        "project3description": "Tienda en línea hecho con HTML, CSS y JavaScript. Presenta un diseño responsivo, una página de inicio, carrusel con looks, opción para reservar citas y una página de contacto.",
+        "project3description": "Tienda en línea hecha con HTML, CSS y JavaScript. Presenta un diseño responsivo, una página de inicio, opción para reservar citas y una página de contacto.",
         "project4": "Estudio de Tatuajes",
         "project4description": "Sitio web de estudio de tatuajes hecho con HTML, CSS y JavaScript. Diseño responsivo con una página de inicio y características secciones por el cliente."
     }

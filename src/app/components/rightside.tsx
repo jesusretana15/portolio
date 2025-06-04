@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import Projects from './projects';
 import * as motion from "motion/react-client"
+import { ContactUs } from './contactForm';
 
 
 export default function RightSide() {
@@ -61,9 +62,7 @@ export default function RightSide() {
             >
                 <section id="contact" className="p-5">
                     <h2 className="text-2xl font-bold pb-5">{t('contact')} </h2>
-                    <p className="text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reiciendis incidunt culpa vero beatae, amet animi, porro quod ratione voluptate consequuntur perspiciatis, laborum eligendi aliquid sequi dignissimos odit at. Architecto.</p>
-                    <p className="text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reiciendis incidunt culpa vero beatae, amet animi, porro quod ratione voluptate consequuntur perspiciatis, laborum eligendi aliquid sequi dignissimos odit at. Architecto.</p>
-                    <p className="text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error reiciendis incidunt culpa vero beatae, amet animi, porro quod ratione voluptate consequuntur perspiciatis, laborum eligendi aliquid sequi dignissimos odit at. Architecto.</p>
+                    <ContactUs />
                 </section>
             </motion.section>
 
