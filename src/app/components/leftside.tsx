@@ -1,9 +1,20 @@
+"use client";
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './langSwitch';
+import { Canvas } from '@react-three/fiber'
 import * as motion from "motion/react-client"
+import Experience from './experience';
+import { Suspense } from 'react';
+import { Html } from '@react-three/drei';
 
 export default function LeftSide() {
     const t = useTranslations('HomePage');
+
+    function LoaderFallback() {
+        return <Html><div className="p-2 text-sm bg-black/80 text-white rounded">
+            Loading...
+        </div></Html>;
+    }
 
     return (
 
@@ -25,8 +36,19 @@ export default function LeftSide() {
                 <div className="row-start-1  text-base  md:text-base">
                     <LanguageSwitcher />
                 </div>
-                <div className="row-start-2  grid items-center justify-center h-full w-full ">
-                    <h1  >test</h1>
+                <div className="row-start-2  flex items-center justify-center h-full w-full r3f">
+                    <Canvas
+                        camera={{
+                            fov: 45,
+                            near: 0.1,
+                            far: 2000,
+                            position: [-3, 1.5, 4]
+                        }}
+                    >
+                        <Suspense fallback={<LoaderFallback />}>
+                            <Experience />
+                        </Suspense>
+                    </Canvas>
                 </div>
                 <footer className="row-start-3 items-center px-2  text-base h-15 md:h-30 md:text-base flex  justify-between">
 

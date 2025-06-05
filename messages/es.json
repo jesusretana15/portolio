@@ -20,6 +20,14 @@
         "project3": "Tienda de Moda",
         "project3description": "Tienda en línea hecha con HTML, CSS y JavaScript. Presenta un diseño responsivo, una página de inicio, opción para reservar citas y una página de contacto.",
         "project4": "Estudio de Tatuajes",
-        "project4description": "Sitio web de estudio de tatuajes hecho con HTML, CSS y JavaScript. Diseño responsivo con una página de inicio y características secciones por el cliente."
+        "project4description": "Sitio web de estudio de tatuajes hecho con HTML, CSS y JavaScript. Diseño responsivo con una página de inicio y características secciones por el cliente.",
+        "contactName": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "contactEmail": "Correo electrónico",
+        "emailPlaceholder": "Tu correo electrónico",
+        "contactMessage": "Mensaje",
+        "messagePlaceholder": "Escribe tu mensaje aquí",
+        "contactSend": "Enviar",
+        "contactSuccess": "¡Mensaje enviado con éxito!"
     }
 }

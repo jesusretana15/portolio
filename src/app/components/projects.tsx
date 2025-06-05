@@ -44,15 +44,15 @@ export default function Projects() {
                     <div className='flex justify-start gap-3 items-center'>
                         <a className='hover:scale-105' href={project.live} target="_blank">
                             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-r from-stone-900 to-gray-900  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                                <span className=" relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
                                     {t('projectOpenProject')}
                                 </span>
                             </button>
                         </a>
                         <a className='hover:scale-105' href={project.code} target="_blank">
                             <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-r from-stone-900 to-gray-900  hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                                <span className="flex items-center gap-3 relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-                                    {t('projectOpenCode')} <img className="h-7 md:h-5 hover:scale-95" src="https://dm7725hym1.ufs.sh/f/E22hCg5xRFzeZe3zWLFGUVWF3BTqvIRP48G1MhfCwApztN76" alt="" />
+                                <span className="flex items-center gap-3 relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
+                                    {t('projectOpenCode')} <img className="h-5 md:h-5 hover:scale-95" src="https://dm7725hym1.ufs.sh/f/E22hCg5xRFzeZe3zWLFGUVWF3BTqvIRP48G1MhfCwApztN76" alt="" />
                                 </span>
                             </button>
                         </a>

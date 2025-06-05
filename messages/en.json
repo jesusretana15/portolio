@@ -20,6 +20,14 @@
         "project3": "Fashion Store",
         "project3description": "E-commerce built using HTML, CSS and JavaScript. Features a responsive design, a landing page, an option to book appointments, and contact page.",
         "project4": "Tattoo Studio ",
-        "project4description": "Tattoo studio site built using HTML, CSS and JavaScript. It features a responsive design and features requested by the client."
+        "project4description": "Tattoo studio site built using HTML, CSS and JavaScript. It features a responsive design and features requested by the client.",
+        "contactName": "Name",
+        "namePlaceholder": "Your name",
+        "contactEmail": "Email",
+        "emailPlaceholder": "Your email",
+        "contactMessage": "Message",
+        "messagePlaceholder": "Write your message here",
+        "contactSend": "Send",
+        "contactSuccess": "Message sent successfully!"
     }
 }
