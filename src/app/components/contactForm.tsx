@@ -72,7 +72,7 @@ export const ContactUs: React.FC = () => {
                 </div>
 
                 <button type="submit"
-                    className="text-white  w-full font-medium rounded-lg text-sm px-5 py-2.5 bg-gradient-to-r from-stone-900 to-gray-900  hover:scale-95 focus:ring-4 focus:outline-none focus:ring-gray-300 border border-gray-400/80" >
+                    className="text-white  w-full font-medium rounded-lg text-sm px-5 py-2.5 bg-gradient-to-r from-stone-900 to-gray-900  hover:scale-101 focus:ring-4 focus:outline-none focus:ring-gray-300 border border-gray-400/80" >
                     {t('contactSend')}
                 </button>
             </form>
