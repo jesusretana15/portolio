@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jesus Artavia - Portfolio",
   description: "Portfolio of Jesus Artavia, a web developer specializing in React, Next.js, and Tailwind CSS.",
+  icons: {
+    icon: 'https://dm7725hym1.ufs.sh/f/E22hCg5xRFze7CH65fOfV5S3BwWhM4AHRFZmQ8spTzC2qtOg',
+  },
 };
 
 export default async function LocaleLayout({
@@ -28,6 +31,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   // Ensure that the incoming `locale` is valid
+
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
