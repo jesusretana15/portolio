@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -42,6 +43,7 @@ export default async function LocaleLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
