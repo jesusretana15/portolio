@@ -46,7 +46,7 @@ export const ContactUs: React.FC = () => {
                         transition={{ duration: 1, ease: 'easeInOut' }}
                     >
                         <div className="mb-4 bg-green-100 text-green-800 text-sm font-medium px-4 py-3 rounded-lg shadow">
-                            ✅ {t('successMessage')}
+                            ✅ {t('contactSuccess')}
                         </div>
                     </motion.section>
                 )}
