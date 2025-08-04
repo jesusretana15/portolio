@@ -53,6 +53,7 @@ export const ContactUs: React.FC = () => {
             </AnimatePresence>
 
             <form className="mb-6" ref={form} onSubmit={sendEmail}>
+                <input type="hidden" name="source_page" value={"portfolio"} />
                 <div className="mb-6">
                     <label htmlFor="user_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">{t('contactName')}</label>
                     <input type="text" name="user_name" id="user_name" required placeholder={t('namePlaceholder')}
